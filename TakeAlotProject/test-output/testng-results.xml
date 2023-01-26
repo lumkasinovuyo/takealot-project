@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="40341" started-at="2023-01-26T16:58:19 SAST" finished-at="2023-01-26T16:59:00 SAST">
+    <groups>
+    </groups>
+    <test name="TakeAlotProject" duration-ms="40341" started-at="2023-01-26T16:58:19 SAST" finished-at="2023-01-26T16:59:00 SAST">
+      <class name="tests.AddToCartTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:tests.AddToCartTest@5a709816]" name="launchBrowser" is-config="true" duration-ms="33571" started-at="2023-01-26T16:58:20 SAST" finished-at="2023-01-26T16:58:53 SAST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:tests.AddToCartTest@5a709816]" name="addToCart" duration-ms="6539" started-at="2023-01-26T16:58:53 SAST" finished-at="2023-01-26T16:59:00 SAST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.AddToCartTest@5a709816]" name="closeBrowser" is-config="true" duration-ms="180" started-at="2023-01-26T16:59:00 SAST" finished-at="2023-01-26T16:59:00 SAST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.AddToCartTest -->
+    </test> <!-- TakeAlotProject -->
+  </suite> <!-- Default Suite -->
+</testng-results>
